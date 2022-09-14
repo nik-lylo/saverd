@@ -1,0 +1,25 @@
+{
+  "icons": {
+    "128": "./src/assets/icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "128": "./src/assets/icon.png"
+    },
+    "default_popup": "./src/popup/public/index.html"
+  },
+  "background": {
+    "service_worker": "src/background/index.js"
+  },
+  "permissions": ["storage", "tabs", "scripting"],
+  "description": "Saverd recipes extension",
+  "manifest_version": 3,
+  "name": "Saverd",
+  "short_name": "Saverd",
+  "version": "0.1",
+  "web_accessible_resources": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline';"
+  },
+  "host_permissions": ["https://*/*"]
+}

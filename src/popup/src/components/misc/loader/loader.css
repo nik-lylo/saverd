@@ -1,0 +1,13 @@
+.loader {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  z-index: 999999999999;
+}
