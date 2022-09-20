@@ -48,6 +48,9 @@
   height: 100%;
   width: 100%;
 }
+.save__success {
+  word-break: break-word;
+}
 .save__success h4 {
   color: rgba(0, 0, 0, 0.9);
   margin: 24px 0px 0px 0px;
@@ -65,4 +68,7 @@
   align-items: center;
   height: 38px;
   margin-top: 24px;
+}
+.save__error {
+  word-break: break-word;
 }
